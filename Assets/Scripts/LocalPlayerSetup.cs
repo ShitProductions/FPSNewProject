@@ -32,9 +32,10 @@ public class LocalPlayerSetup : NetworkBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (string.IsNullOrEmpty(network.matchName))
+        /*if (string.IsNullOrEmpty(network.matchName))
         {
             scene.enabled = true;
-        }
+            mainaudio.enabled = true;
+        }*/
     }
 }
