@@ -32,10 +32,12 @@ public class LocalPlayerSetup : NetworkBehaviour
     // Update is called once per frame
     void Update()
     {
-        /*if (string.IsNullOrEmpty(network.matchName))
+        if (Input.GetKey(KeyCode.X))
         {
+            scene = SceneCam.GetComponent<Camera>();
             scene.enabled = true;
+            mainaudio = SceneCam.GetComponent<AudioListener>();
             mainaudio.enabled = true;
-        }*/
+        }
     }
 }
